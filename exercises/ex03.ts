@@ -2,9 +2,9 @@
 // Use function overloading to define the function in two variants: one for numbers and another for strings.
 // Return the string.
 
-const combine = () => {
-  //Code here
-};
+function combine(a: any, b: any): string {
+  return a.toString() + b.toString();
+}
 
 console.log(combine(2, 3)); // Expected output: "23"
 console.log(combine("Hello, ", "world!")); // Expected output: "Hello, world!"
